@@ -1,0 +1,50 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(41, 41, 41);
+    color: #ffffff;
+    margin: 20px;
+    text-align: center;
+    background-image: url("sasuke.jpeg");
+    background-repeat: repeat;
+    cursor: url("sasuke.jpeg") 16 16, auto;
+}
+
+h1 {
+    background-color: rgb(126, 35, 35);
+}
+
+p, ul, ol, table {
+    line-height: 1.5;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto 1em auto;
+}
+
+ul, ol {
+    padding-left: 100px;
+}
+
+table {
+    background-color: white;
+    color: black;
+    width: 60%;
+    margin: 0 auto 10px auto;
+}
+
+th, td {
+    border: 1px dotted black;
+}
+
+a {
+    color: yellow;
+}
+
+a:hover {
+    color: green;
+}
+
+img {
+    width: 400px;
+}
+
+
