@@ -4,7 +4,7 @@ body {
     color: #ffffff;
     margin: 20px;
     text-align: center;
-    background-image: url("sasuke.jpeg");
+    background-image: url("sasuke-background.gif");
     background-repeat: repeat;
     cursor: url("sasuke.jpeg") 16 16, auto;
 }
