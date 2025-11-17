@@ -1,26 +1,39 @@
 body {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(97, 7, 7);
     color: #ffffff;
     margin: 20px;
     text-align: center;
-    background-image: url("sasuke-background.gif");
+    background-image: url("background.gif");
     background-repeat: repeat;
-    cursor: url("sasuke.jpeg") 16 16, auto;
+    cursor: url("icons8-hand-cursor-50.png") 16 16, auto;
 }
 
 h1 {
     background-color: rgb(126, 35, 35);
 }
 
-p, ul, ol, table {
-    line-height: 1.5;
+h2 {
+    background-color: rgb(126, 35, 35);
+}
+
+h3 {
+    background-color: rgb(126, 35, 35);
     text-align: left;
-    max-width: 600px;
-    margin: 0 auto 1em auto;
+}
+
+p  {
+    line-height: 1;
+    text-align: left;
+    padding-left: 110px;
+    padding-right: 600px;
+    background-color: black;
+    color: red;
 }
 
 ul, ol {
+    line-height: 3;
+    text-align: left;
     padding-left: 100px;
 }
 
@@ -36,15 +49,15 @@ th, td {
 }
 
 a {
-    color: yellow;
+    color: red;
 }
 
 a:hover {
-    color: green;
+    color: black;
 }
 
 img {
-    width: 400px;
+    padding-right: 500px;
+    box-shadow: 10px 10px 5px red;
 }
-
 
